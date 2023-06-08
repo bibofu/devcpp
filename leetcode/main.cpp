@@ -109,10 +109,10 @@ bool is_ok(vector<int>& price, int diff, int k) {
             j++;
         }
 
-        if(j<price.size()){
+        if (j<price.size()){
             count++;
             i = j-1;
-        }else{
+        }else {
             break;
         }
 
